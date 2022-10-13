@@ -1,0 +1,52 @@
+body {
+    width: auto;
+    height: 200px;
+
+    padding-bottom: 40px;
+
+    background-color: bisque;
+}
+
+div {
+    background-color: rgb(238, 234, 227);
+
+    border: 10px solid black;
+    border-radius: 15px;
+
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    width: 400px;
+    margin: 10px;
+}
+
+.icon {
+    width: 60px;
+    height: 70px;
+}
+
+.selfie {
+    width: 200px;
+    padding-left: 30px;
+}
+
+th, td {
+    padding-left: 20px;
+}
