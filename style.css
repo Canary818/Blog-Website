@@ -8,7 +8,7 @@ body {
 }
 
 div {
-    background-color: rgb(238, 234, 227);
+    background-color: rgb(252, 248, 243);
 
     border: 10px solid black;
     border-radius: 15px;
@@ -23,7 +23,7 @@ div {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Trebuchet MS';
     text-align: center;
 }
@@ -45,6 +45,10 @@ img {
 .selfie {
     width: 200px;
     padding-left: 30px;
+}
+
+.chart {
+    width: 600px;
 }
 
 th, td {
