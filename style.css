@@ -37,7 +37,7 @@ img {
     margin: 10px;
 }
 
-.button {
+.submitbutton {
     background-color: white;
     border-color: black;
     border-width: 3px;
@@ -59,10 +59,14 @@ img {
     position: absolute;
 }
 
-.bg{
-    width: 100%;
-    opacity: 0.03;
+img.bg {
     position: fixed;
+    top: 0;
+    bottom: 60%;
+    width: 60%;
+    opacity: 0.03;
+    margin-left: 18%;
+    display: block;
 }
 
 .chart {
