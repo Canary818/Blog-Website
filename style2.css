@@ -9,10 +9,11 @@ body {
 
 div.nav {
     background-color: #90bedb;
+    box-shadow: 5px 5px 5px #506a7a;
     text-align: center;
     position: fixed;
     top: 0;
-    height: 60px;
+    height: 50px;
     width: 95.5%;
     padding-top: 30px;
     padding-left: 15px;
@@ -36,13 +37,18 @@ div.empty {
     text-align: center;
     margin: 20px;
     word-spacing: 40px;
+    font-family: monospace;
     color: black;
     display: inline;
 }
 
+.nav a:hover {
+    color: white;
+    font-size: 30px;
+}
+
 div.box {
     background-color: #FEF5EF;
-
     border: 3px solid #FEF5EF;
     border-radius: 5px;
 
@@ -66,7 +72,7 @@ h2 {
 }
 
 p {
-    width: 500px;
+    width: 600px;
     color: black;
     text-align: left;
     line-height: 1.5;
